@@ -11,20 +11,20 @@ function a()
             if(seconds == 0){
                 if (count > 120){
                     alert("Wow! You are pretty fast!")
-                    alert("Thanks for playing the click test, your score was " + count, + " Share it!");
+                    alert("Thanks for playing the click test, your score was " + count + " Share it!");
                     var average = count / 30;
                     alert("Also, your average was "+ average + " CPS")
                 }
                 else if (count > 100 && count < 120)
                 {
                     alert("Not bad, but you could improve.");
-                    alert("Thanks for playing the click test, your score was " + count, + " Share it!");
+                    alert("Thanks for playing the click test, your score was " + count + " Share it!");
                     var average = count / 30;
                     alert("Also, your average was "+ average + " CPS")
                 }
                 else{
                     alert("You can do better, try again by refreshing the page.");
-                    alert("Thanks for playing the click test, your score was " + count, + " Share it!");
+                    alert("Thanks for playing the click test, your score was " + count + " Share it!");
                     var average = count / 30;
                     alert("Also, your average was "+ average + " CPS")
                 }
